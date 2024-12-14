@@ -48,3 +48,6 @@ def convert(image_file):
             print(img_array[i])
             count = 0
     print("\n")
+
+if __name__ == "__main__":
+    convert(sys.argv[1])
